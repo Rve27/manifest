@@ -137,6 +137,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="flare" />
+  <project path="packages/apps/FlareZone" name="packages_apps_FlareZone" groups="pdk-fs" remote="flare" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk" remote="flare" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="flare" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="flare" />
@@ -153,4 +154,5 @@
 
   <!-- Vendor -->
   <project path="vendor/flare" name="vendor_flare" remote="flare" />
+  <project path="vendor/support" name="vendor_support" remote="flare" />
 </manifest>
