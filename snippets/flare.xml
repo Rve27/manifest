@@ -142,6 +142,8 @@
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="flare" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="flare" />
 
+  <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="flare" />
+
   <!-- System -->
   <project path="system/bpf" name="system_bpf" groups="pdk" remote="flare" />
   <project path="system/core" name="system_core" groups="pdk" remote="flare" />
