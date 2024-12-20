@@ -5,6 +5,9 @@
            fetch="https://github.com/Project-Flare"
            revision="15" />
 
+  <remote  name="flare-gitea"
+           fetch="https://gitea.com/afterallafk" />
+
   <!-- Rootdir -->
   <project path="art" name="art" groups="pdk" remote="flare" />
   <project path="bionic" name="bionic" groups="pdk" remote="flare" />
@@ -138,8 +141,10 @@
   <!-- Packages -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="flare" />
   <project path="packages/apps/FlareZone" name="packages_apps_FlareZone" groups="pdk-fs" remote="flare" />
+  <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="flare" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk" remote="flare" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="flare" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="flare" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="flare" />
 
   <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="flare" />
@@ -157,4 +162,5 @@
   <!-- Vendor -->
   <project path="vendor/flare" name="vendor_flare" remote="flare" />
   <project path="vendor/support" name="vendor_support" remote="flare" />
+  <project path="vendor/gms" name="vendor_gms" remote="flare-gitea" revision="15" clone-depth="1" />
 </manifest>
