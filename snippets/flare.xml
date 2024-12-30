@@ -160,6 +160,7 @@
   <project path="system/vold" name="system_vold" groups="pdk" remote="flare" />
 
   <!-- Vendor -->
+  <project path="vendor/extra" name="vendor_extra" remote="flare" />
   <project path="vendor/flare" name="vendor_flare" remote="flare" />
   <project path="vendor/support" name="vendor_support" remote="flare" />
   <project path="vendor/gms" name="vendor_gms" remote="flare-gitea" revision="15" clone-depth="1" />
