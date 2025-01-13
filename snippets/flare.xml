@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Project FlareOS -->
+  <!-- Project Flare -->
   <remote  name="flare"
            fetch="https://github.com/Project-Flare"
            revision="15" />
 
-  <remote  name="flare-gitea"
-           fetch="https://gitea.com/afterallafk" />
+  <remote  name="flare-gitlab"
+           fetch="https://gitlab.com/afterallafk" />
 
   <!-- Rootdir -->
   <project path="art" name="art" groups="pdk" remote="flare" />
@@ -163,5 +163,5 @@
   <project path="vendor/extra" name="vendor_extra" remote="flare" />
   <project path="vendor/flare" name="vendor_flare" remote="flare" />
   <project path="vendor/support" name="vendor_support" remote="flare" />
-  <project path="vendor/gms" name="vendor_gms" remote="flare-gitea" revision="15" clone-depth="1" />
+  <project path="vendor/gms" name="vendor_gms" remote="flare-gitlab" revision="fifteen" clone-depth="1" />
 </manifest>
